@@ -1,0 +1,13 @@
+description: >
+    Implement to provide the serial numbers and part numbers of hardware
+    being called out in error logs.  This data would need to be persisted
+    so that even after the hardware is replaced it still shows the original
+    SN/PN data.
+properties:
+    - name: Callouts
+      type: array[struct[string,string,string]]
+      description: >
+          An array of callout, serial number, part number tuples where:
+              callout - the inventory item being called out
+              serial number - the item's serial number
+              part number - the item's part number
