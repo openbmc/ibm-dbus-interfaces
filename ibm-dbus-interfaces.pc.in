@@ -7,5 +7,6 @@ Name: ibm-dbus-interfaces
 Description: Generated sdbusplus bindings for ibm-dbus-interfaces.
 URL: https://github.com/openbmc/ibm-dbus-interfaces
 Version: @VERSION@
+Requires.private: @AX_PACKAGE_REQUIRES_PRIVATE@
 Libs: -L@libdir@ -libm_dbus
 Cflags: -I@includedir@
