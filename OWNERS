@@ -32,17 +32,9 @@
 # data within them will be kept sorted.
 
 owners:
-- spinler@us.ibm.com
 
 reviewers:
-- bradleyb@fuzziesquirrel.com
 
 matches:
 
 openbmc:
-- name: Brad Bishop
-  email: bradleyb@fuzziesquirrel.com
-  discord: radsquirrel
-- name: Matt Spinler
-  email: spinler@us.ibm.com
-  discord: mspinler
